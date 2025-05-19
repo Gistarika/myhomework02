@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin-top: 0 auto;
+    padding: 0 100px;
+}
+.flex-container{
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.flex-item{
+    border-radius: 20px;
+    width: 240px;
+    height: 240px;
+    background-color: palevioletred;
+    padding: 10px;
+}
+.item-child{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid black;
+
+}
+.element1{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.child-wrap{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid black
+}
+.element2{
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+}
+.child-gap{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid black
+}
+.element3{
+  display: flex;
+ justify-content: space-between;
+}
+.element4{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+.element5{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.element6{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.element7{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+.element8{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.element9{
+    display: flex;
+    justify-content: space-around;
+}
